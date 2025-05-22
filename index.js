@@ -1,0 +1,1 @@
+window.location.href = "../Trang chủ/trangchu.html"
