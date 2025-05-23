@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0; 
+}
+
+body { 
+    background: url(img/siyuan-g_V2rt6iG7A-unsplash.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.duongke {
+    border: 0.25px solid;
+    border-color: rgb(233, 197, 142);
+}
+.header {
+    background: #e6d5ad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    width: 196px;
+    height: 100px;
+    margin-left: 20px;
+}
+.header .search {
+    margin-left: -35px; 
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(195, 162, 92);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header .search input {
+    width: 85%;
+    height: 28px;
+    border: 1px solid white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.header .search input::placeholder {
+    text-align: center;
+}
+
+.header .search i {
+    margin-left: 5px;
+    transform:translateY(10%);
+    font-size: 15px;
+    color: black;
+}
+.header .login {
+    margin-right: 20px;
+    color: black; 
+    font-weight: bold;
+}
+.header .login button {
+    background: transparent;
+    border: #e6d5ad; 
+    color: black; 
+}
+.header .login button a {
+    background: transparent;
+    border: none; 
+    color: black; 
+    text-decoration: none;
+}
+.header .login button a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.header .signin {
+    margin-right: 30px;
+    color: black; 
+    font-weight: bold;
+}
+.header .signin button {
+    background: transparent;
+    border: #e6d5ad; 
+    color: black; 
+}
+.header .signin button a {
+    background: transparent;
+    border: none; 
+    color: black; 
+    text-decoration: none;
+}
+.header .singin button a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.menu { 
+    text-align: center;
+}
+.menu ul {
+    list-style-type: none;
+    background-color: #e6d5ad;
+    text-align: center;
+}
+.menu ul li {
+    color: black;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+.menu ul li:hover .sub-menu {
+    display: block; 
+}
+.sub-menu li a:hover {
+    color: white; 
+    font-weight: bold;
+}
+
+
+.sub-main {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    background: transparent; 
+    border: 2px solid rgb(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0,0,0,.2);
+    color: white;
+    border-radius: 8px;
+    padding: 30px 30px; 
+    margin-left: 35%;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    z-index: 1;
+}
+
+.sub-main h1 {
+    font-size: 30px;
+    text-align: center;
+    color:#e6d5ad; 
+}
+
+.sub-main .input-box {
+    position:relative; 
+    width: 100%;
+    height: 25px;
+    margin: 50px 0; 
+    margin-top: 35px;
+}
+
+.input-box input {
+    width: 330px;
+    height: 22px; 
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgb(255,255,255,.2);
+    border-radius: 40px; 
+    font-size: 14.5px;
+    color: white;
+    padding: 15px;
+}
+
+.input-box input::placeholder {
+    color: white; 
+}
+
+.input-box i {
+    position: absolute; 
+    right: 40px; 
+    top: 110%;
+    transform:translateY(-50%);
+    font-size: 20px;
+}
+
+.agree label input {
+    accent-color: white;
+    margin-left: 30px; 
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.sub-main .dk { 
+    width: 90%;
+    height: 40px; 
+    background:#e6d5ad; 
+    border: none;
+    outline: none; 
+    border-radius: 40px; 
+    box-shadow: 0 0 px rgb(0,0,0,.1);
+    cursor: pointer; 
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-left: 22px;
+}
+.sub-main .dk:hover {
+    background: white; 
+    color: #333;
+}
+.sub-main .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px; 
+}
+
+.register-link p a {
+    color:#e6d5ad;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+    color: white; 
+}
+
+
+.main3 {
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #e6d5ad;
+    line-height: 1.5;
+    width: cover;
+    height: 120px;
+    padding-bottom: 140px;
+}
+.main3 .o7 {
+    margin-left: 60px;
+    margin-right: 93px;
+}
+.main3 .o7 h2{
+    color: white;
+    margin-top: 120px;
+    font-size: 35px;
+}
+.main3 .o7 i {
+    font-size: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.main3 .o8 h2{
+    color: white;
+    margin-top: 135px;
+    margin-right: 60px;
+}
+.main3 .o8 label {
+    color: rgb(8, 8, 8);
+    margin-right: 60px;
+}
+.main3 .o9 {
+    margin-top: 175px;
+}
+.main3 .o9 h2{
+    color: white;
+    margin-right: 40px;
+}
+.main3 .o9 label a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main3 .o9 label a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.main3 .o10 {
+    margin-top: 175px;
+}
+.main3 .o10 h2{
+    color: white;
+    margin-right: 60px;
+}
+.main3 .o10 label a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main3 .o10 label a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
